@@ -1,0 +1,262 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.nav-bar{
+    background-color: rgb(0,8,20);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100px;
+}
+
+.logo{
+    color: white;
+    font-size: 3.5rem;
+    position: relative;
+    left: -100px;
+    font-family: sans-serif;
+}
+
+span{
+    color: rgb(255,195,0);
+}
+
+.nav2 a{
+    color: whitesmoke;
+    text-decoration: none;
+    padding-left: 60px;
+    font-size: 1.5rem;
+}
+
+.nav2 a:hover{
+    color: rgb(255,214,10);
+}
+
+/***********main**************/
+main{
+    background-color: whitesmoke;
+}
+
+.me{
+    height: 60vh;
+}
+
+.pic{
+    float: right;
+    height: 350px;
+    width: 450px;
+    background-size: cover;
+}
+
+.pic::after{
+    content: '';
+    position: absolute;
+    height: 90px;
+    width: 90px;
+    border-bottom: 10px solid rgb(255,195,0);
+    border-right: 10px solid yellow;
+    right: 25px;
+    bottom: 60px;
+}
+
+.pic::before{
+    content: '';
+    position: absolute;
+    height: 90px;
+    width: 90px;
+    border-top: 10px solid rgb(255,195,0);
+    border-left: 10px solid yellow;
+    left: 720px;
+    top: 130px;
+}
+
+.me{
+    padding: 4.5rem;
+    font-family: Georgia;
+    color: rgb(18,69,89);
+}
+
+.hello{
+    font-size: 2rem;
+    padding-top: 3rem;
+}
+
+.name{
+    font-size: 5rem;
+    padding-top: 1.5rem;
+}
+
+.web{
+    font-size: 3rem;
+    padding-top: 1rem;
+}
+
+button{
+    height: 50px;
+    width: 250px;
+    margin-top: 30px;
+    background-color: rgb(18,69,89);;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    border: none;
+}
+
+button a{
+    text-decoration: none;
+    color: rgb(255,195,0);
+}
+
+button:hover{
+    background-color: rgb(255,195,0);
+    transform: scale(.95);
+}
+
+button a:hover{
+    color: rgb(20,33,61);
+}
+
+.about{
+    height: 100vh;
+    box-sizing: border-box;
+    border: 20px solid rgb(129, 187, 184);
+    border-end-start-radius: 30px 70px;
+    border-start-end-radius: 30px 70px;
+}
+
+.head-me{
+    font-size: 4rem;
+    text-align: center;
+    color: rgb(20,33,61);
+    margin-top: 25px;
+    font-family: georgia;
+}
+
+.details{
+    padding: 4rem;
+    font-size: 1.4rem;
+    font-family: cursive;
+}
+
+.skill{
+    height: 100vh;
+}
+
+.detail{
+    padding: 40px;
+    margin-left: 40px;
+    color: rgb(20,33,61);
+}
+
+p{
+    font-size: 1.5rem;
+    padding-top: 10px;
+    font-family: cursive;
+}
+
+.rate{
+    height: 20px;
+    width: 700px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.rate1{
+    background: linear-gradient(90deg, rgb(129, 187, 184) 93%, white 7%);
+}
+
+.rate2{
+    background: linear-gradient(90deg, rgb(129, 187, 184) 70%, white 30%);
+}
+
+.rate3{
+    background: linear-gradient(90deg, rgb(129, 187, 184) 85%, white 15%);
+}
+
+.rate4{
+    background: linear-gradient(90deg, rgb(129, 187, 184) 50%, white 50%);
+}
+
+.rate5{
+    background: linear-gradient(90deg,rgb(129, 187, 184) 87%, white 13%);
+}
+
+.rate6{
+    background: linear-gradient(90deg,rgb(129, 187, 184) 75%, white 25%);
+}
+
+.project{
+    height: 100vh;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+}
+
+.img{
+    height: 250px;
+    width: 450px;
+    background-size: cover;
+    padding: 40px;
+    box-shadow: 10px 10px 10px rgb(20,33,61);
+}
+
+.img1{
+    margin-right: 60px;
+}
+
+.imgs{
+    font-size: 3rem;
+    color: rgb(18,69,89);
+}
+
+.imgs:hover{
+    color: rgb(255,195,0);
+}
+
+.img:hover{
+    transform: scale(1.1);
+    box-shadow: 10px 10px 10px rgb(236, 199, 13);
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.contact{
+    height: 90vh;
+}
+
+.message-me{
+    height: 40px;
+    width: 400px;
+    background-color: rgb(20,33,61);
+    font-size: 1.5rem;
+    color: rgb(255,195,0);
+}
+
+.message-me1{
+    height: 100px;
+    width: 400px;
+    background-color: rgb(20,33,61);
+    margin-top: 30px;
+    font-size: 1.5rem;
+    color: rgb(255,195,0);
+}
+
+.logo-i{
+    font-size: 2rem;
+    margin-top: 30px;
+}
+
+.logo-i i:hover{
+    transform: scale(1.2);
+    color: rgb(236, 199, 13);
+}
+
+footer{
+    background-color: rgb(20,33,61);
+    color: rgb(255,214,10);
+    text-align: center;
+    padding: 20px;
+}
